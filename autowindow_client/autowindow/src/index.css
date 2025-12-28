@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column; 
+    justify-content: center; 
+    align-items: center;     
+    height: 100vh;          
+    background-color: hsl(0, 9%, 75%);
+}
+
+/* Home start*/
+
+.autowindow{
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+
+.slogan{
+	margin-bottom: 50px;
+}
+
+.home{
+	padding: 20px;
+	border: 5px solid hsl(0, 9%, 65%);
+	border-radius: 10px;
+	text-shadow: 5px 5px 10px hsl(0, 9%, 40%);
+	box-shadow: 5px 5px 5px hsl(0, 9%, 40%);
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: hsl(0, 9%, 30%);
+}
+
+.button-sign-in{
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+.home input {
+    margin-bottom: 20px; 
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px hsl(0, 9%, 40%);
+    background-color: hsl(0, 9%, 70%);
+}
+
+.home button {
+    padding: 10px 20px;
+    box-shadow: 3px 3px 10px hsl(0, 9%, 40%);
+    background-color: hsl(0, 9%, 70%);
+    transition: background-color 0.5s ease;
+    border-radius: 5px;
+}
+
+.home button:hover{
+	background-color: hsl(0, 9%, 30%);
+	cursor: pointer;
+}
+
+.alert1{
+    font-size: 20px;
+    color: hsl(0, 91%, 26%);
+    margin-bottom: 20px;
+}
+
+.uye{
+    margin-bottom: 10px;
+}
+/* Home end*/
+/* sign up start*/
+
+.home2{
+	padding: 20px;
+	border: 5px solid hsl(0, 9%, 65%);
+	border-radius: 10px;
+	text-shadow: 5px 5px 10px hsl(0, 9%, 40%);
+	box-shadow: 5px 5px 5px hsl(0, 9%, 40%);
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: hsl(0, 9%, 30%);
+}
+
+.sign-up{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+.inp{
+    margin: 10px 0; 
+    padding: 8px;
+    box-shadow: 3px 3px 10px hsl(0, 9%, 40%);
+    background-color: hsl(0, 9%, 70%);
+    border-radius: 10px;
+}
+
+.enter{
+    padding: 10px 20px;
+    box-shadow: 3px 3px 10px hsl(0, 9%, 40%);
+    background-color: hsl(0, 9%, 70%);
+    transition: background-color 0.5s ease;
+    border-radius: 5px;
+
+}
+.enter:hover{
+	background-color: hsl(0, 9%, 30%);
+	cursor: pointer;
+}
+.alert2{
+    font-size: 20px;
+    color: hsl(138, 92%, 24%);
+}
+.alert3{
+    font-size: 20px;
+    color: hsl(0, 91%, 26%);
+    margin-bottom: 10px;
+}
+
+
+/*sign up end*/
+/*dashboard start*/
+
+.dashboard{
+    width: 1200px;
+    padding: 20px;
+	border: 5px solid hsl(0, 9%, 65%);
+	border-radius: 10px;
+	text-shadow: 5px 5px 10px hsl(0, 9%, 40%);
+	box-shadow: 5px 5px 5px hsl(0, 9%, 40%);
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	color: hsl(0, 9%, 30%);
+}
+
+.title{
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.inp-house{
+    width: 600px;
+    margin: 10px 0; 
+    padding: 8px;
+    margin-bottom: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    box-shadow: 3px 3px 10px hsl(0, 9%, 40%);
+    background-color: hsl(0, 9%, 70%);
+
+}
+
+.button-dashboard{
+    padding: 10px 20px;
+    box-shadow: 3px 3px 10px hsl(0, 9%, 40%);
+    background-color: hsl(0, 9%, 70%);
+    transition: background-color 0.5s ease;
+    margin-left: 20px;
+    border-radius: 5px;
+}
+
+ol {
+  list-style-position: inside;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.button-dashboard:hover{
+	background-color: hsl(0, 9%, 30%);
+	cursor: pointer;
+}
+
+li {
+  display: flex;
+  align-items: center;
+  margin-bottom: 50px;
+  border-bottom: 2px solid hsl(0, 9%, 50%);
+  padding-bottom: 5px;
+}
+
+.writing {
+  flex: 1;
+  text-align: center;
+}
+
+span .button-dashboard{
+    margin-top: 20px;
+}
