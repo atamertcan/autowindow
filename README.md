@@ -45,7 +45,8 @@ The system is built on a microservices-based architecture:
 ### 1. Clone the Repository
 '''bash
 git clone https://github.com/atamertcan/autowindow.git
-cd autowindow'''
+cd autowindow
+
 ### 2. Backend Setup (Spring Boot)
 Navigate to the backend folder.
 
