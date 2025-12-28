@@ -61,3 +61,11 @@ Then run the application:
 cd autowindow_server
 ./mvnw spring-boot:run
 ```
+
+### 3. Frontend Setup (React)
+Navigate to the frontend folder, install dependencies, and start the application.
+
+```bash
+cd ../autowindow_client
+npm install
+npm run dev
