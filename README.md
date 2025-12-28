@@ -44,5 +44,17 @@ The system is built on a microservices-based architecture:
 
 ### 1. Clone the Repository
 ```bash
-git clone [https://github.com/atamertcan/autowindow.git](https://github.com/atamertcan/autowindow.git)
+git clone https://github.com/atamertcan/autowindow.git
 cd autowindow
+### 2. Backend Setup (Spring Boot)
+Navigate to the backend folder.
+
+**Important:** You must configure the database connection before running.
+1. Create a PostgreSQL database named `autowindow_db` (or whatever name you used).
+2. Open `src/main/resources/application.properties`.
+3. Update `spring.datasource.username` and `spring.datasource.password` with your local PostgreSQL credentials.
+
+Then run the application:
+```bash
+cd autowindow_server
+./mvnw spring-boot:run
